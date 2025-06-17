@@ -1,0 +1,519 @@
+const qaDatabase = [
+	{
+		question:
+			'Zad 1: Wyuczony wcześniej detektor pieszych przetestowano na obrazie stosując metodę okna przesuwnego. Na tej podstawie można oszacować, że',
+		answer: '(Specyficzność >99%, 1 fałszywy negatyw, dokładność >99.9%)',
+	},
+	{
+		question:
+			'Zad 2: Niech X,y będą danymi uczącymi. Dopasowanie współczynników w modelu regresji',
+		answer: "(lsqminnorm(X,y), X\\y, pinv(X)*y, (X'X)^(-1)X'y)",
+	},
+	{
+		question: 'Zad 3: Jakość klasyfikacji można ocenić metodami',
+		answer:
+			'(2-krotna walidacja, leave-one-out, resubstytucja, 5-krotna walidacja, hold-out)',
+	},
+	{
+		question: 'Zad 4: Zaznacz algorytmy uczone w sposób nadzorowany',
+		answer: '(k-NN, drzewo decyzyjne, regresja logistyczna)',
+	},
+	{
+		question: 'Zad 5: Entropia symetrycznej kostki do gry wynosi',
+		answer: '(log₆(6), -log₆(1/6))',
+	},
+	{
+		question:
+			'Zad 6: Przyjmując bazę współczynniki dla wektora w tej bazie są następujące',
+		answer: '([3, 2, 4])',
+	},
+	{
+		question: 'Zad 7: Klasyfikacja binarna',
+		answer: '(uwzględnia dwie klasy)',
+	},
+	{
+		question: 'Zad 8: Dyskretyzacja to',
+		answer: '(zastąpienie atrybutu ciągłego skończoną liczbą wartości)',
+	},
+	{
+		question: 'Zad 9: Zaznacz atrybuty nominalne dyskretne nieuporządkowane',
+		answer: '(kolor oczu, płeć)',
+	},
+	{
+		question:
+			'Zad 10: Do oceny stopnia zależności binarnych zmiennych X i Y możemy użyć',
+		answer: '(H(Y|X), I(X,Y), r(X,Y), dywergencja K-L)',
+	},
+	{
+		question:
+			'Zad 11: Główne problemy algorytmiczne związane z obsługą dużych zbiorów związane są z',
+		answer:
+			'(Zbyt małą pamięcią, Długim czasem obliczeń, Odpowiednim zarządzaniem pamięcią)',
+	},
+	{
+		question: 'Zad 12: Tokenizacja w NLP',
+		answer: '(podział zdania na słowa)',
+	},
+	{
+		question:
+			'Zad 13: Prawdopodobieństwo zakażenia przy pozytywnym teście COVID (300 osób)',
+		answer: '(większe niż 95%)',
+	},
+	{
+		question:
+			'Zad 14: W wygładzeniu metodą Browna duża wartość współczynnika alfa',
+		answer: '(premiuje oryginalne wartości szeregu)',
+	},
+	{
+		question:
+			'Zad 15: Załóżmy, że dane mają rozmiar m x n, gdzie m to liczba próbek, a n to liczba atrybutów.Dla takich danych algorytm k środków ma',
+		answer: '(O(mnk))',
+	},
+	{
+		question: 'Zad 16: Weźmy pod uwagę model GMM oraz wyrażenie',
+		answer:
+			'(Mianownik modeluje łączny rozkład danych, Pr(i|x) to prawdopodobieństwo posteriori)',
+	},
+	{
+		question:
+			'Zad 17: Jeżeli skala wyjściowych obserwacji jest ważna w interpretacji wyników analizy, to w obliczaniu PCA stosuje się zwykle',
+		answer: '(macierz kowariancji)',
+	},
+	{
+		question: 'Zad 18: Histogram przedstawia',
+		answer: '(rozkład częstości jednowymiarowej próby)',
+	},
+	{
+		question: 'Zad 19: Do oceny zależności ciągłych zmiennych X i Y używamy',
+		answer: '(współczynnik korelacji, informacja wzajemna, dywergencja K-L)',
+	},
+	{
+		question: 'Zad 20: Standaryzację zapisujemy wzorem',
+		answer: '((x - mean(x))/std(x))',
+	},
+	{
+		question: 'Zad 21: Klasteryzacja to',
+		answer: '(podział na grupy podobnych obiektów)',
+	},
+	{
+		question: 'Zad 22: W kompresji obrazu, DCT skupia energię',
+		answer: '(w niskich częstotliwościach)',
+	},
+	{
+		question: 'Zad 23: Założenie i.i.d. oznacza że',
+		answer: '(parametry modelu i dane sa niezależne)',
+	},
+	{
+		question:
+			'Zad 24: “Naiwne” założenie w naiwnym klasyfikatorze bayesowskim oznacza, że',
+		answer: '(atrybuty niezależne przy ustalonych klasach)',
+	},
+	{
+		question:
+			'Zad 25: Wyuczony wcześniej detektor znaków drogowych (znak stop B-20) przetestowanona następującym obrazie, stosując metodę okna przesuwnego.Detektor przeanalizował 1000 okien oraz rozpoznał następujące elementy',
+		answer: '(Specyficzność >99.5%, dokładność >99%)',
+	},
+	{
+		question:
+			'Zad 26: Proces analizy danych składa się z następujących elementów',
+		answer:
+			'(Analiza i wnioskowanie, gromadzenie danych, przetwarzanie wstępne)',
+	},
+	{
+		question:
+			'Zad 27: Metryka kolejowa dla dwóch punktów A i B będzie równa metryce Manhattan jeżeli',
+		answer: '(Punkty A i B leżą na jednej prostej)',
+	},
+	{
+		question:
+			'Zad 28: Przypuśćmy, że wybrany test w kierunku COVID 19 posiada czułość 95% oraz nieznane pozostałe parametry.Przypuśćmy, że wykonano na nas taki test oraz uzyskano wynik pozytywny.',
+		answer:
+			'(Zależy od specyficzności/precyzji testu, wysoka czułość ≠ jakość)',
+	},
+	{
+		question: 'Zad 29: Redukcja wymiarowości jest potrzebna bo',
+		answer: '(Zmniejszenie złożoności danych, silna korelacja atrybutów)',
+	},
+	{
+		question:
+			'Zad 30: Regularyzację typu L2 w modelach klasyfikacyjnych i regresyjnych stosujemy',
+		answer:
+			'(w przypadkach, gdy dane zawierają wiele zmiennych skorelowanych|aby poprawić własności numeryczne algorytmów',
+	},
+	{
+		question: 'Zad 31: Algorytm EM może być wykorzystywany do',
+		answer:
+			'(doboru parametrów, doboru struktury,doboru parametrów i struktury,wyboru liczby składowych )',
+	},
+	{
+		question: 'Zad 32: Zaznacz algorytmy, uczone w sposób nienadzorowany',
+		answer: '(k-środków)',
+	},
+	{
+		question: 'Zad 33: Atrybuty dyskretne to',
+		answer: '(nominalne, binarne, z porządkiem)',
+	},
+	{
+		question:
+			'Zad 34: Złożoność obliczeniowa (liczba operacji do wykonania) dla algorytmu szybkiego obliczania Transformaty Fouriera(FFT), dla N elementów wynosi',
+		answer: '(Nlog₂N)',
+	},
+	{
+		question: 'Zad 35: Jądro K to funkcja posiadająca następujące własności',
+		answer: '(całka = 1, K(x)>0)',
+	},
+	{
+		question: 'Zad 36: Nielosowe braki w danych (MNAR) wynikają z tego, iż',
+		answer: '(zależności od wartości atrybutów)',
+	},
+	{
+		question:
+			'Zad 37: Wybierz z poniższych miary jakości modeli klasyfikacyjnych',
+		answer: '(dokładność, F1, AUC)',
+	},
+	{
+		question:
+			'Zad 38: Iteracje algorytmu k środków składają się z głównych dwóch kroków: 1) wyznaczanie środków/ centrów C oraz 2) wyznaczenie przypisań punktów do środków S.Niech X oznacza macierz danych.Obie te operacje w trakcie kolejnych iteracji minimalizują funkcje:',
+		answer: '(sumę kwadratów odległości,F1(C,S) do kwadratu)',
+	},
+	{
+		question:
+			'Zad 39: Współczynniki w modelu regresji liniowej mogą być wyznaczone za pomocą wzoru we wzorze tym obliczenie współczynników wymaga trzech operacji mnożenia macierzy (ponumerowanych od lewej strony 1, 2, 3) oraz jednej operacji odwracania macierzy. Załóżmy, że próbek uczących jest więcej niż atrybutów.',
+		answer: '(XᵀX najbardziej kosztowne, kolejność mnożeń nie wpływa na wynik)',
+	},
+	{
+		question: 'Zad 40: Normalizacja zachowująca zero to',
+		answer: '(x/max∥x∥)',
+	},
+	{
+		question: 'Zad 41: Wizualizacja eksploracyjna',
+		answer: '(Przeglądanie danych, techniki graficzne)',
+	},
+	{
+		question: 'Zad 42: Wizualizacja wyjaśniająca',
+		answer: '(Pokazuje cechy danych, wzmacnia narrację)',
+	},
+	{
+		question:
+			'Zad 43: Weźmy pod uwagę model GMM oraz wyrażenie … W wyrażeniu tym',
+		answer: '(Prawdopodobieństwo posteriori, mianownik modeluje rozkład)',
+	},
+	{
+		question: 'Zad 44: Binaryzacja to',
+		answer:
+			'(zastapienie atrybutu przyjmującego m wartości,m atrybutami binarnymi, przyjmując wartości 1 dla odpowiednich wartości)',
+	},
+	{
+		question:
+			'Zad 45: Wynik działania procedury DTF dla dwóch elementów (x,y) wynosi',
+		answer: '(DTF(x,y) = (x+y, x-y))',
+	},
+	{
+		question: 'Zad 46: Do oceny stopnia zależności zmiennych X i Y',
+		answer: '(Informacja wzajemna,Fishera, korelacja, dywergencja K-L)',
+	},
+	{
+		question:
+			'Zad 47: Dlaczego w przetwarzaniu sygnałów (np. kompresja) stosuje się DCT zamiast FFT',
+		answer: '(FFT powoduje nieciągłości na granicach bloków)',
+	},
+	{
+		question:
+			'Zad 48: W trakcie 10-krotnej kroswalidacji wykonywanych jest 10 iteracji uczenia i testowania oraz wytrenowanych zostaje 10 różnych modeli.Załóżmy, że pewien model oceniono procedurą kroswalidacji i uzyskano dokładność 95%, do którego z modeli odnosi się ta dokładność?',
+		answer: '(modelu na pełnym zbiorze danych)',
+	},
+	{
+		question:
+			'Zad 49: Wyuczony wcześniej detektor znaków drogowych przetestowano na następującym obrazie stosując metodę okna przesuwnego.Detektor przeanalizował 1000 okien oraz rozpoznał następujące elementy',
+		answer: '(dokładność >99%, specyficzność >99.5%)',
+	},
+	{
+		question:
+			'Zad 50: Kolejne iteracje rekurencyjnej procedury uczenia drzewka decyzyjnego wybierają w sposób zachłanny atrybuty w oparciu o miary zanieczyszczenia',
+		answer: '(największy przyrost info lub najmniejsze zanieczyszczenie)',
+	},
+	{
+		question:
+			'Zad 51: W liniowej metodzie SVM miarą, która podlega maksymalizacji w trakcie uczenia modelu jest',
+		answer: '(maksymalizacja marginesu między klasami)',
+	},
+	{
+		question: 'Zad 52: W szeregu czasowym (dowolnym)',
+		answer:
+			'(każda obserwacja może być losowa, każda obserwacja związana jest z konkretnym momentem czasu, każda obserwacja może być zależna od obserwacji poprzedniej)',
+	},
+	{
+		question: 'Zad 53: Algorytm Eigenfaces zakłada że',
+		answer: '(obrazy kwadratowe, macierz kowariancji z rozmiaru obrazka)',
+	},
+	{
+		question:
+			'Zad 54: Wybierz z poniższych miary odnoszące się do jakości klasyfikacji',
+		answer: '(AUC, precyzja, F1)',
+	},
+	{
+		question: 'Zad 55: Miara dopasowania rozkładu to',
+		answer: '(BIC, funkcja wiarygodności, AIC)',
+	},
+	{
+		question: 'Zad 56: Selekcję zmiennych w regresji liniowej można wykonać',
+		answer: '(podejście krokowe z BIC/AIC)',
+	},
+	{
+		question: 'Zad 57: Do estymacji funkcji gęstości można wykorzystać',
+		answer: '(algorytm EM)',
+	},
+	{
+		question: 'Zad 58: Definicja wiedzy mówi, że to',
+		answer:
+			'(Wiedza to subiektywne wyobrażenie , integracja z doświadczeniami)',
+	},
+	{
+		question:
+			'Zad 59: Przypuśćmy, że wybrany test w kierunku COVID19 posiada czułość 99% oraz nieznane pozostałe parametry.Przypuśćmy, że wykonano na nas taki test oraz uzyskano wynik pozytywny.Czy w takiej sytuacji powinniśmy martwić?',
+		answer: '(NIE, Zależy od specyficzności/precyzji, czułość ≠ jakość)',
+	},
+	{
+		question: 'Zad 60: Wskazać różnice pomiędzy modelem LDA oraz QDA?',
+		answer: '(LDA: równość macierzy kowariancji, QDA: brak tego założenia)',
+	},
+	{
+		question: 'Zad 61: Miara BIC może być wykorzystana do',
+		answer: '(BIC dla struktury/parametrów modelu, GMM)',
+	},
+	{
+		question: 'Zad 62: Iteracje algorytmu k-środków minimalizują funkcje',
+		answer:
+			'(Suma kwadratów odległości punktów od centrów, F1(C,S) = ∑||X(i,:)-C(S(i),:)||²)',
+	},
+	{
+		question:
+			'Zad 63: Złożoność obliczeniowa (liczba operacji do wykonania) dla algorytmu klasycznego obliczania Transformaty Fouriera, dla N elementów',
+		answer: '(N²)',
+	},
+	{
+		question: 'Zad 64: Z definicji DCT wynika, że dla u=0, C(u) jest',
+		answer: '(średnią ze wszystkich próbek f(x))',
+	},
+	{
+		question:
+			'Zad 65: Regularyzację typu L1 w modelach klasyfikacyjnych i regresyjnych stosujemy',
+		answer:
+			'(aby poprawić właśności numeryczne algo,gdy zalezy nam na selekcji zmiennych podczas uczenia)',
+	},
+	{
+		question: 'Zad 66: Wybierz z poniższych miary i modeli regresyjnych',
+		answer: '(MSE, R², MAE, RMSE)',
+	},
+	{
+		question: 'Zad 67: Redukcja wymiarowości jest potrzebna ponieważ',
+		answer: '(silne korelacje atrybutów, zmniejszenie złożoności)',
+	},
+	{
+		question: 'Zad 68: Załóżmy, że zdarzenia A i B są niezależne -- oznacza to',
+		answer: '(Pr(A|B)=Pr(A), Pr(A∩B)=Pr(A)Pr(B))',
+	},
+	{
+		question:
+			'Zad 69:Kolejne iteracje rekurencyjnej procedury uczenia drzewka decyzyjnego wybierają w sposób zachłanny atrybuty w oparciu o miary zanieczyszczenia',
+		answer: '(największy przyrost informacji lub najmniejsze zanieczyszczenie)',
+	},
+	{
+		question:
+			'Zad 70: 0 W hierarchicznym algorytmie klasteryzacji metodą środków ciężkości, wyznaczenie środka ciężkości klasy będącej wynikiem połączenia klas $A$ oraz $B$ wymaga',
+		answer: '(zależy od wymiarowości, niezależny od rozmiarów klas)',
+	},
+	{
+		question:
+			'Zad 71: Przyjmując bazę współczynniki dla wektora w tej bazie są następujące',
+		answer: '([3, 4, 2])',
+	},
+	{
+		question: 'Zad 72: Tabela kontyngencji – tablica krzyżowa',
+		answer: '(rozkład liczności dwuwymiarowej próby)',
+	},
+	{
+		question: "Zad 73: Kwartet Anscombe'a to",
+		answer: '(zbiory o tych samych statystykach, różnej wizualizacji)',
+	},
+	{
+		question:
+			'Zad 74: Wyuczony wcześniej detektor twarzy przetestowano na następującym obrazie stosując metodę okna przesuwnego.Detektor przeanalizował 10000 okien oraz rozpoznał następujące elementy',
+		answer: '(dokładność >99.95%, F1>0.8, czułość > precyzja)',
+	},
+	{
+		question: 'Zad 75: Uczenie maszynowe kładzie większy nacisk na',
+		answer: '(rozwiązanie konkretnego zagadnienia)',
+	},
+	{
+		question: 'Zad 76: Losowe braki w danych (MAR) wynikają z tego, iż',
+		answer: '(rozkład braków niezależny od wartości atrybutów)',
+	},
+	{
+		question:
+			'Zad 77: W liniowej metodzie SVM miarą, która podlega maksymalizacji w trakcie uczenia modelu jest',
+		answer: '(margines separacji)',
+	},
+	{
+		question: 'Zad 78: Braki w danych można usunąć poprzez',
+		answer: '(dodanie zmiennej wskazującej brak danych i zastąpienie zerem)',
+	},
+	{
+		question: 'Zad 79: Algorytm EM może być wykorzystany do',
+		answer:
+			'(dobór struktury i parametrów, wybór składowych GMM, dobór struktury, dobór parametrów)',
+	},
+	{
+		question:
+			'Zad 80:  Zaznacz modele, które w procesie uczenia wykorzystują przeszukiwanie zachłanne',
+		answer: '(drzewa decyzyjne, regresja krokowa)',
+	},
+	{
+		question: 'Zad 81: Miarą dopasowania rozkładu do danych pomiarowych jest',
+		answer: '(funkcja wiarygodności, AIC, BIC)',
+	},
+	{
+		question: 'Zad 82: Proces stacjonarny to',
+		answer: '(stała średnia, proces stochastyczny)',
+	},
+	{
+		question:
+			'Zad 83: Rozważmy wielowymiarowy rozkład normalny. W modelu tym macierz kowariancji można efektywnie aproksymować',
+		answer: '(rozkład eig, macierz diagonalna)',
+	},
+	{
+		question:
+			'Zad 84: 4 Test na COVID-19 został przebadany na grupie 300 osób (100 zdrowych, 200 zakażonych).Otrzymano czułość 95% oraz specyficzność 95%.Załóżmy, że test wykonano u jednej osoby i wynik był pozytywny.Prawdopodobieństwo, że osoba ta jest faktycznie zakażona, jest',
+		answer: '(większe niż 95%)',
+	},
+	{
+		question: 'Zad 85: Metody wyboru liczby składowych głównych (w PCA)',
+		answer: '(wyjaśniające 75-90% wariancji, łagodny spadek)',
+	},
+	{
+		question: 'Zad 86: Przekleństwo wymiarowości polega na',
+		answer:
+			'(duża liczba atrybutów względem obiektów,więcej danych w kolumnach niż wierszy tabeli)',
+	},
+	{
+		question:
+			'Zad 87: Gdy dwie kolejne ramki wideo nie różnią się znacząco, to współczynnik wzajemnej informacji jest',
+		answer: '(duży)',
+	},
+	{
+		question:
+			'Zad 88: Jeżeli zmienne są wyrażone w mocno różniących się jednostkach (zakresach) bądź jeżeli nie są proporcjonalne, to w obliczaniu PCA stosuje się zwykle',
+		answer: '(macierz korelacji)',
+	},
+	{
+		question:
+			'Zad 89:9 Dla n wymiarowych danych zawierających m próbek dendrogram obrazujący drzewo połączeń w algorytmie hierarchicznym posiada',
+		answer: '(m-1 węzłów nie-liście, m liści)',
+	},
+	{
+		question:
+			'Zad 90: Algorytm obrotowo niezmienniczy to taki, który po nauczeniu na danych oryginalnych jak i na danych obróconych(formalnie oznacza to macierz danych X przemnożoną przez dowolną macierz ortogonalną) daje dokładnie takie same predykcje.Zaznacz algorytmy obrotowo niezmiennicze',
+		answer: '(QDA, k-NN euklidesowe, LDA, PCA, regresja liniowa)',
+	},
+	{
+		question:
+			'Zad 91: Całkowicie losowe braki w danych (MCAR) wynikają z tego, iż',
+		answer: '(całkowicie losowy proces powstawania)',
+	},
+	{
+		question:
+			'Zad 92: Gdy dwie kolejne ramki wideo różnią się znacznie, to współczynnik wzajemnejinformacji jest',
+		answer: '(mały)',
+	},
+]
+
+const searchInput = document.getElementById('searchInput')
+const resultsDiv = document.getElementById('results')
+const answerContainer = document.getElementById('answerContainer')
+const answerText = document.getElementById('answerText')
+
+// Wyszukiwanie pytań
+searchInput.addEventListener('input', e => {
+	const searchTerm = e.target.value.toLowerCase()
+	resultsDiv.innerHTML = ''
+
+	if (searchTerm === '') return
+
+	const filteredQuestions = qaDatabase.filter(item =>
+		item.question.toLowerCase().includes(searchTerm)
+	)
+
+	if (filteredQuestions.length === 0) {
+		resultsDiv.innerHTML = '<p>Brak wyników</p>'
+		return
+	}
+
+	filteredQuestions.forEach(item => {
+		const questionDiv = document.createElement('div')
+		questionDiv.className = 'question'
+		questionDiv.textContent = item.question
+		questionDiv.addEventListener('click', () => {
+			answerText.textContent = item.answer
+			answerContainer.style.display = 'block'
+		})
+		resultsDiv.appendChild(questionDiv)
+	})
+})
+
+document.addEventListener('DOMContentLoaded', function () {
+	const searchInput = document.getElementById('searchInput')
+	const resultsDiv = document.getElementById('results')
+
+	// Autofocus na input
+	searchInput.focus()
+
+	// Pozwala focusować results
+	resultsDiv.setAttribute('tabindex', '-1')
+
+	// Tab -> przechodzi do results
+	searchInput.addEventListener('keydown', function (e) {
+		if (e.key === 'Tab') {
+			e.preventDefault()
+			resultsDiv.focus()
+			focusFirstQuestion()
+		}
+	})
+
+	// Funkcja do ustawienia aktywnej klasy i focusu
+	function focusFirstQuestion() {
+		const questions = document.querySelectorAll('.question')
+		if (questions.length > 0) {
+			questions.forEach(q => q.classList.remove('active'))
+			questions[0].classList.add('active')
+			questions[0].scrollIntoView({ block: 'nearest' })
+		}
+	}
+
+	// Nawigacja klawiszami w resultach
+	resultsDiv.addEventListener('keydown', function (e) {
+		const questions = Array.from(document.querySelectorAll('.question'))
+		const active = document.querySelector('.question.active')
+		let index = questions.indexOf(active)
+
+		if (e.key === 'ArrowDown') {
+			e.preventDefault()
+			if (index < questions.length - 1) {
+				questions[index]?.classList.remove('active')
+				questions[index + 1].classList.add('active')
+				questions[index + 1].scrollIntoView({ block: 'nearest' })
+			}
+		} else if (e.key === 'ArrowUp') {
+			e.preventDefault()
+			if (index > 0) {
+				questions[index]?.classList.remove('active')
+				questions[index - 1].classList.add('active')
+				questions[index - 1].scrollIntoView({ block: 'nearest' })
+			}
+		} else if (e.key === 'Enter') {
+			e.preventDefault()
+			if (active) {
+				active.click() // symuluje kliknięcie na div.question
+			}
+		}
+	})
+})
