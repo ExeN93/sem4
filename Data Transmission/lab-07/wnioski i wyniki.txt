@@ -1,0 +1,13 @@
+ASK to takie działa, ale byle szum i już leży 
+FSK jest odporny jak skała, ale zajmuje sporo miejsca 
+a PSK to taki dobry złoty środek ogarnia temat bez szumu i nie robi bałaganu.
+
+ASK 3db: 0.00 hz
+ASK 6db: 0.50 hz
+ASK 10db: 0.50 hz
+FSK 3db: 23.50 hz
+FSK 6db: 24.00 hz
+FSK 10db: 25.00 hz
+PSK 3db: 20.50 hz
+PSK 6db: 25.00 hz
+PSK 10db: 34.50 hz

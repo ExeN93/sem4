@@ -1,0 +1,4 @@
+zwiększenie współczynnika powoduje zwiększenie szerokości pasma sygnału
+
+AM generuje stosunkowo wąskie pasmo
+FM ma najszersze pasmo przy wysokich wartościach
