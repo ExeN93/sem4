@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.2.9">
+  <diagram name="Znany Fryzjer - Diagram klas" id="ieF4pK1uv_vgg_-HV6QV">
+    <mxGraphModel dx="1539" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1280" pageHeight="640" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-1" value="&lt;h3&gt;User&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- name: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- email: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- password: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- role: enum {Client, Hairdresser, Admin}&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-2" value="&lt;h3&gt;Salon&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- name: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- address: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- phone: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- ownerId: UUID&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-3" value="&lt;h3&gt;Service&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- name: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- price: Decimal&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- duration: Int&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- salonId: UUID&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="265" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-4" value="&lt;h3&gt;Appointment&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- dateTime: DateTime&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- status: enum {Scheduled, Completed, Cancelled}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- clientId: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- hairdresserId: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- serviceId: UUID&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="265" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-5" value="&lt;h3&gt;Payment&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- amount: Decimal&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- status: enum {Pending, Paid, Failed}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- appointmentId: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- method: String&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-6" value="&lt;h3&gt;VisitHistory&lt;/h3&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- appointmentId: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- notes: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- createdAt: DateTime&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="470" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-7" value="&lt;h4 style=&quot;&quot;&gt;Review&lt;/h4&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- id: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- rating: Int (1-5)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- comment: String&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- userId: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- salonId: UUID&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- createdAt: DateTime&lt;/div&gt;" style="shape=umlClass;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="940" y="20" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-8" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-1" target="rXbuM4-KiQ8Gx8DWoQQ3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-9" style="endArrow=block;dashed=1;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-1" target="rXbuM4-KiQ8Gx8DWoQQ3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-10" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-2" target="rXbuM4-KiQ8Gx8DWoQQ3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-11" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-4" target="rXbuM4-KiQ8Gx8DWoQQ3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-12" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-4" target="rXbuM4-KiQ8Gx8DWoQQ3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-13" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-4" target="rXbuM4-KiQ8Gx8DWoQQ3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-14" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-1" target="rXbuM4-KiQ8Gx8DWoQQ3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rXbuM4-KiQ8Gx8DWoQQ3-15" style="endArrow=block;" edge="1" parent="1" source="rXbuM4-KiQ8Gx8DWoQQ3-2" target="rXbuM4-KiQ8Gx8DWoQQ3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

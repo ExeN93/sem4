@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.1.3">
+  <diagram name="Page-1" id="y-DSmI1Uy9q8DW4IoN5t">
+    <mxGraphModel dx="2190" dy="1422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w8unE261J-UhPTlXiy1h-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#CC0000;" parent="1" vertex="1">
+          <mxGeometry x="286.5" width="1080" height="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-1" value="&lt;span style=&quot;font-size: medium;&quot;&gt;&lt;b&gt;Aplikacja jednostronicowa&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Container: Java,Spring]&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Zapewnia całą funkcjonalność bankowości internetowej klientom&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;za pośrednictwem ich przeglądarki internetowej&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#CC0000;strokeWidth=9;" parent="1" vertex="1">
+          <mxGeometry x="525" y="80.75" width="217" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-2" value="&lt;b&gt;&lt;span style=&quot;font-size: medium;&quot;&gt;Aplikacja mobilna&lt;/span&gt;&lt;br style=&quot;&quot; data-end=&quot;20&quot; data-start=&quot;17&quot;&gt;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Container: Kotlin]&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Zapewnia ograniczony podzbiór&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;funkcjonalności bankowości&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;internetowej&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;klientom&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;za pośrednictwem ich urządzenia mobilnego&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#CC0000;strokeWidth=8;align=center;" parent="1" vertex="1">
+          <mxGeometry x="864" y="82.25" width="240" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=none;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="531" y="83.75" width="203" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="562" y="86.25" width="9" height="9" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="547" y="86.25" width="9" height="9" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="533" y="86.25" width="9" height="9" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="577" y="86.75" width="146" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-10" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="864" y="87.75" width="13" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="862" y="146.25" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-13" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6F0000;fillColor=#a20025;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="87.75" width="13" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1092" y="137.25" width="5" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-17" value="&lt;font&gt;&lt;strong style=&quot;text-align: start;&quot; data-is-only-node=&quot;&quot; data-end=&quot;23&quot; data-start=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Kontroler logowania&lt;/font&gt;&lt;/strong&gt;&lt;br style=&quot;text-align: start;&quot; data-end=&quot;26&quot; data-start=&quot;23&quot;&gt;&lt;span style=&quot;font-size: 13px; text-align: start;&quot; data-end=&quot;69&quot; data-start=&quot;26&quot;&gt;[Container: Spring MVC Rest Controller]&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;&lt;font size=&quot;2&quot;&gt;&lt;br style=&quot;text-align: start;&quot; data-end=&quot;72&quot; data-start=&quot;69&quot;&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 13px; text-align: start;&quot;&gt;Pozwala użytkownikom zalogować się do systemu ZnanyFryzjer.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="370" y="369.25" width="248" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-18" value="&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-is-only-node=&quot;&quot; data-end=&quot;31&quot; data-start=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Kontroler resetowania hasła&lt;/font&gt;&lt;/strong&gt;&lt;br style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;34&quot; data-start=&quot;31&quot;&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;77&quot; data-start=&quot;34&quot;&gt;[&lt;font style=&quot;font-size: 13px;&quot;&gt;Container: Spring MVC Rest Controller]&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;b&gt;&lt;br style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;80&quot; data-start=&quot;77&quot;&gt;&lt;/b&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot;&gt;Pozwala użytkownikom zresetować&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot;&gt;hasło za pomocą jednorazowego linku.&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+          <mxGeometry x="690" y="369.25" width="285" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-19" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&lt;strong style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-is-only-node=&quot;&quot; data-end=&quot;31&quot; data-start=&quot;0&quot;&gt;Kontroler podsumowania kont&lt;/strong&gt;&lt;br style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;34&quot; data-start=&quot;31&quot;&gt;&lt;/font&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;77&quot; data-start=&quot;34&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Container: Spring MVC Rest Controller]&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;80&quot; data-start=&quot;77&quot;&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot;&gt;Zapewnia klientom podsumowanie ich kont bankowych.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+          <mxGeometry x="1017" y="369.25" width="269" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-20" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;strong style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-is-only-node=&quot;&quot; data-end=&quot;26&quot; data-start=&quot;0&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Komponent zabezpieczeń&lt;/font&gt;&lt;/strong&gt;&lt;br style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;29&quot; data-start=&quot;26&quot;&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;57&quot; data-start=&quot;29&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Container: Spring Bean]&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot; data-end=&quot;60&quot; data-start=&quot;57&quot;&gt;&lt;span style=&quot;text-align: start; caret-color: rgb(0, 0, 0);&quot;&gt;Zapewnia funkcjonalność związaną z logowaniem, zmianą haseł itp.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+          <mxGeometry x="366" y="619.25" width="252" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-21" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Komponent e-mail &lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Container: Spring Bean]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Wysyła e-maile do użytkowników.&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+          <mxGeometry x="736" y="617.25" width="267" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-26" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b style=&quot;color: rgb(255, 255, 255);&quot;&gt;Amazon S3&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; color: rgb(255, 255, 255);&quot;&gt;[Software system]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px; color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start; color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Zewnętrzny system przechowywania plików, np. zdjęć użytkowników, dokumentacji lub innych zasobów związanych z aplikacją.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="1052" y="975.25" width="205" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-27" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;Baza Danych&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Container: PostgreSQL]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Przechowuje wszystkie dane użytkowników, rezerwacji, usług itp&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="1" vertex="1">
+          <mxGeometry x="367.5" y="974.25" width="249" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-28" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;E-mail System&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Wewnętrzny system e-mail Microsoft Exchange&lt;/font&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+          <mxGeometry x="711.5" y="974.25" width="230" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-29" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Robi API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[HTTP/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="w8unE261J-UhPTlXiy1h-19" target="w8unE261J-UhPTlXiy1h-26" edge="1">
+          <mxGeometry x="0.0011" width="160" relative="1" as="geometry">
+            <mxPoint x="1170" y="818.25" as="sourcePoint" />
+            <mxPoint x="1593" y="832.25" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-31" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Robi API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="w8unE261J-UhPTlXiy1h-19" edge="1">
+          <mxGeometry x="-0.0047" width="160" relative="1" as="geometry">
+            <mxPoint x="1092" y="232.75" as="sourcePoint" />
+            <mxPoint x="1226" y="464.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-32" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Robię API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" target="w8unE261J-UhPTlXiy1h-17" edge="1">
+          <mxGeometry x="-0.0047" width="160" relative="1" as="geometry">
+            <mxPoint x="864" y="224.75" as="sourcePoint" />
+            <mxPoint x="924" y="361.25" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Robi API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.64;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="w8unE261J-UhPTlXiy1h-18" edge="1">
+          <mxGeometry x="-0.0038" width="160" relative="1" as="geometry">
+            <mxPoint x="1092" y="232.75" as="sourcePoint" />
+            <mxPoint x="846" y="377.25" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-34" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Robi API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="w8unE261J-UhPTlXiy1h-17" edge="1">
+          <mxGeometry x="-0.0047" width="160" relative="1" as="geometry">
+            <mxPoint x="608" y="237.25" as="sourcePoint" />
+            <mxPoint x="424" y="347.25" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-35" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Robi API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry x="-0.0047" width="160" relative="1" as="geometry">
+            <mxPoint x="711" y="229.25" as="sourcePoint" />
+            <mxPoint x="771" y="365.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Robi API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="w8unE261J-UhPTlXiy1h-19" edge="1">
+          <mxGeometry x="-0.0062" width="160" relative="1" as="geometry">
+            <mxPoint x="747" y="185.25" as="sourcePoint" />
+            <mxPoint x="807" y="321.75" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-37" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Używa&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.445;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.451;exitY=0.989;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w8unE261J-UhPTlXiy1h-17" target="w8unE261J-UhPTlXiy1h-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="517.25" as="sourcePoint" />
+            <mxPoint x="640" y="517.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-38" value="&lt;font size=&quot;2&quot;&gt;Używa&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.37;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="w8unE261J-UhPTlXiy1h-18" target="w8unE261J-UhPTlXiy1h-21" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="868" y="501.25" as="sourcePoint" />
+            <mxPoint x="864" y="619.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-39" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Używa&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="w8unE261J-UhPTlXiy1h-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="690" y="504.25" as="sourcePoint" />
+            <mxPoint x="692" y="619.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-40" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Pobiera informacje z i&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;zapisuje do&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;[SQL/TCP]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="w8unE261J-UhPTlXiy1h-20" target="w8unE261J-UhPTlXiy1h-27" edge="1">
+          <mxGeometry x="0.0002" width="160" relative="1" as="geometry">
+            <mxPoint x="979" y="801.25" as="sourcePoint" />
+            <mxPoint x="571" y="791.25" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-41" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Wysyła e-mail&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;korzystając z&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.661;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="w8unE261J-UhPTlXiy1h-28" edge="1">
+          <mxGeometry x="-0.0037" width="160" relative="1" as="geometry">
+            <mxPoint x="864" y="755.25" as="sourcePoint" />
+            <mxPoint x="1199" y="516.25" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8unE261J-UhPTlXiy1h-42" value="&lt;div&gt;&lt;span style=&quot;color: rgb(204, 0, 0);&quot;&gt;API Aplikacji&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(204, 0, 0);&quot;&gt;(Container)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="376" y="790.25" width="94" height="29" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

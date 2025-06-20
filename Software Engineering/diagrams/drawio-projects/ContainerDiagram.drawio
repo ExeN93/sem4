@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15" version="26.1.3">
+  <diagram name="Page-1" id="3zGmeHMoxcLTCu4aQRj2">
+    <mxGraphModel dx="1363" dy="2591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="1033" y="-910" width="1280" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="L5QA0MetBDMoyQzNhzzM-1" value="" style="group;fontSize=11;aspect=fixed;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1174" y="-910" width="1005.07" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-2" value="&lt;font&gt;Użytkownik&lt;/font&gt;&lt;div&gt;&lt;font&gt;[osoba]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font&gt;Klient aplikacji&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;z prywatnym kontem&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="422.2449252873563" y="81.44404332129965" width="211.411275862069" height="107.43682310469315" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="478.852316091954" width="92.99633026577865" height="92.99633026577865" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-5" value="&lt;font&gt;&lt;b&gt;&lt;font&gt;Web Aplikacja&lt;/font&gt;&lt;/b&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Container: Java and Spring MVC]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;Dostarcza statyczną zawartość&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;oraz aplikację jednostronicową&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font&gt;dla systemu rezerwacji usług fryzjerskich ZnanyFryzjer&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry y="261.6606498194946" width="191.19435057471267" height="126.49819494584837" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-6" value="&lt;font&gt;&lt;b&gt;Single-Page Aplikacja&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Container: JavaScript]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span&gt;rzeznaczona dla korzystania&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span&gt;używając przeglądarkę.&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Nadaję pełny funkcjonał &amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="314.80640804597704" y="265.12635379061373" width="195.2377356321839" height="113.79061371841155" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-7" value="&lt;font&gt;&lt;b&gt;Aplikacja Mobilna&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Container: Kotlin, Swift]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;p&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font&gt;rzeznaczona dla urządzeń mobilnych. Obsługuje te same funkcje co aplikacja webowa&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="529.6834425287357" y="265.12635379061373" width="185.41808620689653" height="112.63537906137182" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-8" value="&lt;font&gt;&lt;b&gt;E-mail System&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;font&gt;Wewnętrzny system e-mail Microsoft Exchange.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;strokeColor=#B20000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="793.0810977011494" y="265.12635379061373" width="162.3130287356322" height="102.23826714801444" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-9" value="&lt;font&gt;&lt;b&gt;Baza Danych&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Container: PostgreSQL]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font&gt;Przechowuje wszystkie dane użytkowników, rezerwacji, usług itp&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="20.216925287356325" y="508.8808664259927" width="180.21944827586208" height="131.11913357400724" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-10" value="&lt;font&gt;&lt;b&gt;API Aplikacja&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Container: Java and Spring MVC]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font&gt;Backendowy system obsługujący żądania aplikacji webowej i mobilnej.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="435.5303333333332" y="501.9494584837545" width="198.70349425287355" height="131.11913357400724" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-11" value="&lt;font&gt;&lt;b&gt;Amazon S3&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font&gt;[Software system]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;text-align: start;&quot;&gt;&lt;font&gt;Zewnętrzny system przechowywania plików, np. zdjęć użytkowników, dokumentacji lub innych zasobów związanych z aplikacją.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#999999;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" vertex="1">
+          <mxGeometry x="842.756971264368" y="501.9494584837545" width="162.3130287356322" height="125.34296028880865" as="geometry" />
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-18" value="&lt;font&gt;Odwiedź&lt;/font&gt; &lt;font&gt;ZnanyFryjer&lt;/font&gt;&lt;div&gt;&lt;font&gt;[HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="423.9778045977011" y="131.11913357400724" as="sourcePoint" />
+            <mxPoint x="124.18968390804598" y="257.61732851985556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-20" value="&lt;span style=&quot;text-align: start; white-space: normal;&quot;&gt;&lt;font&gt;Dostarcza do&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: start; white-space: normal;&quot;&gt;&lt;font&gt;przeglądarki&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=-0.018;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-6" edge="1">
+          <mxGeometry x="-0.0022" width="160" relative="1" as="geometry">
+            <mxPoint x="191.77197701149424" y="306.7148014440433" as="sourcePoint" />
+            <mxPoint x="284.1922068965517" y="306.7148014440433" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-21" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="455.169632183908" y="188.88086642599276" as="sourcePoint" />
+            <mxPoint x="547.5898620689655" y="188.88086642599276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-29" value="&lt;font&gt;Przegląd i rezerwacja usług,&lt;/font&gt;&lt;div&gt;&lt;font&gt;zarządzanie&amp;nbsp;&lt;/font&gt;&lt;span&gt;kontem, oplata&lt;/span&gt;&lt;font&gt;&amp;nbsp;&lt;font&gt;usług&lt;/font&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="CdNLvU-L0Fh2n5u2H3BX-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.0665" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-22" value="&lt;font&gt;Przegląd i rezerwacja usług,&lt;/font&gt;&lt;div&gt;&lt;font&gt;zarządzanie kontem,&amp;nbsp;&lt;/font&gt;&lt;span&gt;oplata&lt;/span&gt;&amp;nbsp;&lt;font&gt;usług&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="566.073908045977" y="187.7256317689531" as="sourcePoint" />
+            <mxPoint x="499.06924137931037" y="263.971119133574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-23" value="&lt;font&gt;Wysyla e-mail do&lt;/font&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-2" edge="1">
+          <mxGeometry x="-0.0013" width="160" relative="1" as="geometry">
+            <mxPoint x="834.0925747126436" y="265.12635379061373" as="sourcePoint" />
+            <mxPoint x="926.5128045977012" y="265.12635379061373" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-24" value="&lt;font&gt;Robię API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font&gt;[JSON/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-10" edge="1">
+          <mxGeometry x="-0.0047" width="160" relative="1" as="geometry">
+            <mxPoint x="407.804264367816" y="367.942238267148" as="sourcePoint" />
+            <mxPoint x="500.2244942528735" y="367.942238267148" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-25" value="&lt;font&gt;Robię &amp;nbsp;API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font&gt;[JSON/HTTPS]&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="602.4643735632184" y="367.3646209386281" as="sourcePoint" />
+            <mxPoint x="670.6242931034483" y="501.3718411552346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-26" value="&lt;font&gt;Pobiera informacje z i&lt;/font&gt;&lt;div&gt;&lt;font&gt;&amp;nbsp;zapisuje do&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;[SQL/TCP]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.004;exitY=0.593;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" source="CdNLvU-L0Fh2n5u2H3BX-10" target="CdNLvU-L0Fh2n5u2H3BX-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="433.2198275862069" y="550.4693140794222" as="sourcePoint" />
+            <mxPoint x="525.6400574712643" y="550.4693140794222" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-27" value="&lt;font&gt;Wysyla e-mail&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font&gt;korzystając z&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-8" edge="1">
+          <mxGeometry x="-0.0037" width="160" relative="1" as="geometry">
+            <mxPoint x="599.5762413793103" y="505.4151624548736" as="sourcePoint" />
+            <mxPoint x="691.9964712643679" y="505.4151624548736" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CdNLvU-L0Fh2n5u2H3BX-28" value="&lt;font&gt;Robię API zapytania do&lt;/font&gt;&lt;div&gt;&lt;font&gt;[HTTP/HTTPS]&lt;/font&gt;&lt;/div&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="L5QA0MetBDMoyQzNhzzM-1" target="CdNLvU-L0Fh2n5u2H3BX-11" edge="1">
+          <mxGeometry x="0.0007" width="160" relative="1" as="geometry">
+            <mxPoint x="598.4209885057471" y="556.2454873646209" as="sourcePoint" />
+            <mxPoint x="690.8412183908046" y="556.2454873646209" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

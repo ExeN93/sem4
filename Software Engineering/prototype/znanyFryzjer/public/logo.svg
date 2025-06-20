@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="zfGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CCEBF0" />
+      <stop offset="10%" stop-color="#B3E0E6" />
+      <stop offset="20%" stop-color="#99D5DD" />
+      <stop offset="30%" stop-color="#80CAD3" />
+      <stop offset="40%" stop-color="#66BFCA" />
+      <stop offset="60%" stop-color="#0D697A" />
+      <stop offset="70%" stop-color="#0A5865" />
+      <stop offset="80%" stop-color="#084752" />
+      <stop offset="90%" stop-color="#05353F" />
+      <stop offset="100%" stop-color="#03242C" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" stroke="url(#zfGradient)" stroke-width="4" fill="none"/>
+  <text x="50%" y="52%" text-anchor="middle" fill="url(#zfGradient)" font-size="24" font-family="Arial, sans-serif" font-weight="bold" dy=".3em">ZF</text>
+</svg>
