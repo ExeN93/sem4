@@ -1,5 +1,5 @@
 ### Core Curriculum Courses  
-**Semester 4 – ZUT Faculty of Computer Science**
+**Semester 4 – West Pomeranian University of Technology | Faculty of Computer Science**
 
 ---
 
